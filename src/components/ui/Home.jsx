@@ -2,7 +2,6 @@ import React from 'react';
 import {Typography} from '@material-ui/core'
 import logo from '../../logo.svg';
 
-
 function Home() {
 
     return (
