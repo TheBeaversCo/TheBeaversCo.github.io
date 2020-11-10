@@ -21,7 +21,7 @@ function App() {
                 <Switch checked={darkMode} onChange={() => setDarkMode(!darkMode)} style={{paddingLeft: "auto"}} />
                 <div className="App">
                     <header className="App-header">
-                        <Home />
+                        <Home darkMode={darkMode} />
                     </header>
                 </div>
             </Paper>
