@@ -17,6 +17,7 @@ function Home(props) {
         <React.Fragment>
             <div className="container" style={{height: "100vh", justifyContent: "center", alignItems: "center", textAlign: "center"}}>
                 <Typography variant="h1" style={{fontFamily: "Playfair Display", paddingBottom: "5rem", fontWeight: "800"}}>Welcome</Typography>
+                {/* TODO: This should be changed accordingly */}
                 <img style={{justifyContent: "center", alignItems: "center", paddingBottom: "3rem", width: "50%"}}
                      src={logoLight} alt={'The Beaver Corporation'}
                 />
